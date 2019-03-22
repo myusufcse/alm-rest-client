@@ -35,9 +35,12 @@ Logged in successfully !
 => true
 ```
 ### Open your web ui automation project / or any other cucumber project :
+
 ##### Open the env.rb file
+
 ==> In `env.rb` file
-```sh 
+
+```ruby 
 require 'alm-rest-client'
 encodepass= 'insert code from above.'
 ALM::RestConnector.instance.init(Hash.new, 'qualitycenter.url', '80', 'Domain_name', 'project_name', encodepass)
@@ -45,8 +48,10 @@ ALM::RestConnector.instance.init(Hash.new, 'qualitycenter.url', '80', 'Domain_na
 ALM::RestConnector.instance.init(Hash.new, 'qualitycenter.url', '80', 'Domain_name', 'project_name', nil, 'ALM-UserName', 'ALM-Password')
 ```
 ##### Open the hooks.rb file
+
 ==> In `hooks.rb` file
-```sh
+
+```ruby
 Before do |scenario|
    $scenario = scenario.name
 end
