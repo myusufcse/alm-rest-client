@@ -17,7 +17,7 @@ Type irb  → Enter →   a irb command line will start
 
 > ALM.encodeuserpass('ALM-USER-ID','ALM-PASSWORD')
 Successfully created your encodeuserpass
-=> "RzM0MzXXXXXXXXXXXXyMD"
+=> "RzM0MzXXXXXXXXXXXXy"
 ```
 
 ### To test if your encodepass is successfully generated type (in irb cmd line)
